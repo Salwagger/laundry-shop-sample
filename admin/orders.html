@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin|Dashboard</title>
+    <link rel="stylesheet" href="../css/orders.css" type="text/css" media="all">
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <header class="header">
+        <img src="../src/imgs/logo.jpg" alt="Zyza Laundry Shop Logo" class="header-logo">
+        <br>
+        <h1>Zyza Laundry Shop</h1>
+        <h2>Admin</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="orders.html">Manage Orders</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <div class="services-container">
+        <h1>Manage Orders</h1>
+        <div class="services-subcontainer">
+            <div class="services-container">
+                <div class="orders-options">
+                    <label for="datePicker">Sort by Date:</label>
+                    <input type="date" id="datePicker">
+                </div>
+                <div id="ordersContainer" class="orders-list">
+                    <!-- Cards will be dynamically inserted here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/orders.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-logo {
+    width: 64px;
+    height: 64px;
+    margin-right: 10px;
+    vertical-align: middle;
+    border-radius: 100%;
+}
+
+header {
+    background-image: url("../src/imgs/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:inherit;
+    background-size: cover;
+    padding: 20px;
+    text-align: left;
+
+    position: relative;
+    z-index: 1;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+header h2 {
+    color: #3a8aaa;
+    text-shadow: #37474f;
+}
+
+nav ul.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    padding: 0;
+}
+
+nav ul.menu li a {
+    text-decoration: none;
+    color:royalblue;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 18px;
+    background-color: transparent;
+    padding: 9px 18px;
+    transition: color 0.3s;
+}
+
+nav ul.menu li a:hover {
+    text-decoration: none;
+    color:rgb(8, 16, 43);
+    transform: scale(1.1);
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.orders-options {
+    display: flex;
+    justify-content: flex-end; /* Aligns content to the right */
+    padding-right: 20px; /* Add padding on the right side */
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+.orders-options label {
+    margin-right: 10px; /* Space between the label and any input if added */
+}
+
+/* Main Container */
+.services-container {
+    padding: 20px;
+}
+
+.services-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Title Styling */
+.our-services {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.ordersContainer {
+    margin-top: 12px;
+}
+
+/* Orders List Styling */
+.orders-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.order-card {
+    width: 300px;
+    padding: 15px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 10px; /* Rounded corners for cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.order-card p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.order-card label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.order-card input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Table Styling (Optional, If Used Elsewhere) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px; /* Rounded corners for tables */
+    overflow: hidden;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/admin-dashboard.css">
+</head>
+
+<body>
+    <header class="header">
+        <img src="../src/imgs/logo.jpg" alt="Zyza Laundry Shop Logo" class="header-logo">
+        <br>
+        <h1>Zyza Laundry Shop</h1>
+        <h2>Admin</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="orders.html">Manage Orders</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <section class="dashboard">
+        <h1>Dashboard</h1>
+        <div class="cards">
+            <div class="card">
+                <h2>Total Orders</h2>
+                <p id="total-orders">Loading...</p>
+            </div>
+            <div class="card">
+                <h2>Today's Orders</h2>
+                <p id="todays-orders">Loading...</p>
+            </div>
+            <div class="card">
+                <h2>Total Delivered</h2>
+                <p id="total-delivered">Loading...</p>
+            </div>
+            <div class="card">
+                <h2>Pending Orders</h2>
+                <p id="pending-orders">Loading...</p>
+            </div>
+        </div>
+    </section>
+    <script src="../js/admin-dashboard.js"></script>
+</body>
+
+</html>
